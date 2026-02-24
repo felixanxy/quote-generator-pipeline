@@ -1,8 +1,8 @@
-# 🚀 Motivational Quote Generator - DevOps Pipeline Demo
+#  Motivational Quote Generator - DevOps Pipeline Demo
 
 A beautiful, production-ready quote generator application demonstrating a complete DevOps CI/CD pipeline using modern tools and best practices.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Architecture](#architecture)
@@ -23,7 +23,7 @@ A beautiful, production-ready quote generator application demonstrating a comple
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This project demonstrates a complete DevOps pipeline for deploying a Node.js web application to AWS EC2 using Infrastructure as Code (Terraform) and automated CI/CD (GitHub Actions). The application is a beautiful motivational quote generator with multiple categories and an interactive user interface.
 
@@ -35,7 +35,7 @@ This project demonstrates a complete DevOps pipeline for deploying a Node.js web
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────┐
@@ -65,7 +65,7 @@ This project demonstrates a complete DevOps pipeline for deploying a Node.js web
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### **Infrastructure & DevOps**
 - **AWS EC2** - Virtual server hosting
@@ -81,7 +81,7 @@ This project demonstrates a complete DevOps pipeline for deploying a Node.js web
 
 ---
 
-## ✨ Features
+##  Features
 
 ### **Application Features**
 - 🎨 Beautiful gradient UI with smooth animations
@@ -104,7 +104,7 @@ This project demonstrates a complete DevOps pipeline for deploying a Node.js web
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed and configured:
 
@@ -127,7 +127,7 @@ Before you begin, ensure you have the following installed and configured:
 
 ---
 
-## 📖 Step-by-Step Deployment Guide
+##  Step-by-Step Deployment Guide
 
 ### **1. AWS Setup**
 
@@ -367,11 +367,11 @@ After successful deployment:
 3. Copy the Application URL (e.g., `http://54.123.45.67`)
 4. Open it in your browser!
 
-🎉 **Your application is now live!**
+ **Your application is now live!**
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 quote-generator-pipeline/
@@ -399,7 +399,7 @@ quote-generator-pipeline/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### **GET /api/quotes/random**
 Get a random quote from a specific category or all categories.
@@ -460,7 +460,7 @@ curl http://YOUR-IP/api/health
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### **Issue: GitHub Actions Fails on Terraform Apply**
 
@@ -557,7 +557,7 @@ curl http://YOUR-IP/api/health
 
 ---
 
-## 🎓 Additional Resources
+##  Additional Resources
 
 ### **Learning Materials**
 - [Terraform Documentation](https://www.terraform.io/docs)
@@ -572,7 +572,7 @@ curl http://YOUR-IP/api/health
 - **Elastic IP** (if you attach one): ~$3.6/month when not associated
 
 **Cost Saving Tips:**
-- Use AWS Free Tier (first 12 months)
+- Use AWS Free Tier 
 - Stop EC2 instances when not in use
 - Use `terraform destroy` to remove all resources:
   ```bash
@@ -589,29 +589,6 @@ curl http://YOUR-IP/api/health
 
 ---
 
-## 🎉 What's Next?
-
-### **Enhance the Application**
-- [ ] Add user authentication
-- [ ] Implement database for custom quotes
-- [ ] Add admin panel for managing quotes
-- [ ] Create mobile app version
-
-### **Improve the Pipeline**
-- [ ] Add automated testing (Jest, Mocha)
-- [ ] Implement blue-green deployment
-- [ ] Add monitoring with CloudWatch
-- [ ] Set up auto-scaling
-- [ ] Configure HTTPS with SSL/TLS
-- [ ] Add environment staging (dev, staging, prod)
-
-### **Advanced DevOps**
-- [ ] Implement Docker containerization
-- [ ] Use Kubernetes for orchestration
-- [ ] Add Prometheus + Grafana monitoring
-- [ ] Set up ELK stack for logging
-- [ ] Implement Infrastructure testing (Terratest)
-
 ---
 
 ## 📄 License
@@ -620,16 +597,12 @@ This project is licensed under the MIT License - feel free to use it for learnin
 
 ---
 
-## 👨‍💻 About
-
-Created for **DevOps Academy** to demonstrate a complete CI/CD pipeline for aspiring DevOps engineers.
-
 **Built with ❤️ using:**
 - Node.js • Express • AWS • Terraform • GitHub Actions • Nginx
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Found a bug or want to improve this project? Contributions are welcome!
 
@@ -641,12 +614,12 @@ Found a bug or want to improve this project? Contributions are welcome!
 
 ---
 
-## 📞 Support
+##  Support
 
 If you have questions or need help:
 - Open an issue in the GitHub repository
-- Contact the DevOps Academy team
+- Contact the DevOps team
 
 ---
 
-**Happy Deploying! 🚀**
+Happy Deploying!
