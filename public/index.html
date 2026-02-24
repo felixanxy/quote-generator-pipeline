@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivational Quote Generator | DevOps Pipeline Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">
+                <span class="emoji">✨</span>
+                Daily Inspiration
+                <span class="emoji">✨</span>
+            </h1>
+            <p class="subtitle">Get motivated with powerful quotes</p>
+        </header>
+
+        <!-- Quote Card -->
+        <div class="quote-card" id="quoteCard">
+            <div class="quote-icon">"</div>
+            <p class="quote-text" id="quoteText">
+                Click the button below to get inspired!
+            </p>
+            <p class="quote-author" id="quoteAuthor">- Start Your Journey</p>
+        </div>
+
+        <!-- Category Selection -->
+        <div class="category-section">
+            <label for="categorySelect" class="category-label">Choose a category:</label>
+            <select id="categorySelect" class="category-select">
+                <option value="all">All Categories</option>
+                <option value="motivational">Motivational</option>
+                <option value="success">Success</option>
+                <option value="inspiration">Inspiration</option>
+                <option value="technology">Technology</option>
+                <option value="devops">DevOps</option>
+            </select>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="button-group">
+            <button class="btn btn-primary" id="generateBtn">
+                <span class="btn-icon">🎲</span>
+                Generate Quote
+            </button>
+            <button class="btn btn-secondary" id="shareBtn">
+                <span class="btn-icon">📤</span>
+                Share
+            </button>
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats-section">
+            <div class="stat-card">
+                <div class="stat-number" id="quotesGenerated">0</div>
+                <div class="stat-label">Quotes Generated</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="currentCategory">All</div>
+                <div class="stat-label">Current Category</div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ for DevOps Academy</p>
+            <p class="tech-stack">Node.js • Express • AWS • Terraform • GitHub Actions</p>
+        </footer>
+    </div>
+
+    <!-- Particles Background Effect -->
+    <div class="particles" id="particles"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
