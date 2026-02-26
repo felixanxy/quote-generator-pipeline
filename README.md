@@ -33,7 +33,6 @@ This project demonstrates a complete DevOps pipeline for deploying a Node.js web
 3. **Continuous Deployment** - Automated deployment to EC2 with Nginx reverse proxy
 4. **Health Monitoring** - Automated health checks to verify deployment
 
----
 
 ##  Architecture
 
